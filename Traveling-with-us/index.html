@@ -7,59 +7,62 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="header">
-      <h1 class="header_title">Traveling with us</h1>
-      <nav class="header_nav">
-        <ul class="header_nav-list">
-          <li class="header_nav-item">
-            <a href="#about">About</a>
-          </li>
-          <li class="header_nav-item">
-            <a href="#plan_tour">Plan a tour</a>
-          </li>
-          <li class="header_nav-item">
-            <a href="#order_tour">Order Tour</a>
-          </li>
-          <li class="header_nav-item">
-            <a href="#experience">Experiences</a>
-          </li>
-        </ul>
-      </nav>
+        <header class="header">
+        <h1 class="header__title">Traveling with us</h1>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="#about" class="header__nav-link">About</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#plan_tour" class="header__nav-link">Plan a tour</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#order_tour" class="header__nav-link">Order Tour</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#experience" class="header__nav-link">Experience</a>
+                </li>
+
+            </ul>
+        </nav>
     </header>
 
-    <main>
-      <section id="about" class="section">
-        <div class="section_content">
-          <div class="section_text">
-            <h2 class="section_title">We help discover amazing destinations for you</h2>
-            <ul class="section_list">
-              <li>Experience diverse cultures and traditions</li>
-              <li>Visit world-renowned landmarks and natural wonders</li>
-              <li>Explore hidden gems off the beaten path</li>
-              <li>Immerse yourself in local cuisines and flavors</li>
-              <li>Create unforgettable memories with loved ones</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section id="plan_tour" class="section">
-        <div class="section_content">
-          <div class="section_text">
-            <h2 class="section_title">Plan Your Perfect Trip</h2>
-            <ul class="section_list">
-              <li>
-                Get personalized recommendations based on your preferences
-              </li>
-              <li>Compare prices and find the best deals</li>
-              <li>Book flights, accommodations, and activities seamlessly</li>
-              <li>Stay organized with itineraries and travel documents</li>
-              <li>Enjoy peace of mind with 24/7 customer support</li>
-            </ul>
-          <button class="section_buttom">Plan a tour</button>
-        </div>
-      </section>
-      <section id="order_tour" class="tour_cards">
-        <div class="tour-card">
+    <main class="main">
+
+        <section class="section section-1" id="about">
+            <div class="section__content">
+                <div class="section__text">
+                    <h2 class="section__title"> We help discover amazing destinations for you</h2>
+                    <ul class="section__list">
+                        <li>Experience diverse cultures and traditions</li>
+                        <li>Visit world-renowned landmarks and natural wonders</li>
+                        <li>Explore hidden gems off the beaten path</li>
+                        <li>Immerse yourself in local cuisines and flavors</li>
+                        <li>Create unforgettable memories with loved ones</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section section-2" id="plan_tour">
+            <div class="section__content">
+                <div class="section__text">
+                    <h2 class="section__title">Plan Your Perfect Trip</h2>
+                    <ul class="section__list">
+                        <li>
+                            Get personalized recommendations based on your preferences
+                        </li>
+                        <li>Compare prices and find the best deals</li>
+                        <li>Book flights, accommodations, and activities seamlessly</li>
+                        <li>Stay organized with itineraries and travel documents</li>
+                        <li>Enjoy peace of mind with 24/7 customer support</li>
+                    </ul>
+                </div>
+                <button class="section__button section__button-2">Plan a tour</button>
+            </div>
+        </section>
+        <section class="tour-cards" id="order_tour">
+            <div class="tour-card">
           <img src="images/bali.jpg" alt="Mystical Bali Adventure"  class="tour-card_image"/>
           <h3 class="tour-card_title">Mystical Bali Adventure</h3>
           <p class="tour-card_description">
@@ -68,10 +71,18 @@
             temple, hike to the summit of Mount Batur, and unwind on the
             pristine beaches of Nusa Dua.
           </p>
-          <div class="tour-card_buttoms" >
-            <button class="tour-card_buttom  tour-card_buttom_buy">Buy Tour</button>
-            <button class="tour-card_buttom  tour-card_buttom_info">More Info</button>
-          </div>
+        <div class="tour-card__buttons">
+                    <button class="tour-card__button tour-card__button-buy">
+              Buy Tour
+            </button>
+                    <button class="tour-card__button tour-card__button-info">
+              More Info
+            </button>
+                </div>
+            </div> 
+
+        </section>
+
         </div>
         <div class="tour-card">
           <img src="images/Alaska.jpg" alt="Alaskan Wilderness Expedition " class="tour-card_image"/>
@@ -82,10 +93,18 @@
             wilderness, witness awe-inspiring wildlife, and experience
             unforgettable adventures.
           </p>
-          <div class="tour-card_buttoms">
-            <button class="tour-card_buttom  tour-card_buttom_buy">Buy Tour</button>
-            <button class="tour-card_buttom  tour-card_buttom_info">More Info</button>
-          </div>
+          <div class="tour-card__buttons">
+                    <button class="tour-card__button tour-card__button-buy">
+              Buy Tour
+            </button>
+                    <button class="tour-card__button tour-card__button-info">
+              More Info
+            </button>
+                </div>
+            </div> 
+
+        </section>
+
         </div>
         <div class="tour-card">
           <img src="images/African_safari.jpg" alt="Majestic African Safari  " class="tour-card_image" />
@@ -96,10 +115,18 @@
             vibrant cultures. Discover the untamed beauty of the African
             savanna.
           </p>
-          <div class="tour-card_buttoms">
-            <button class="tour-card_buttom  tour-card_buttom_buy">Buy Tour</button>
-            <button class="tour-card_buttom  tour-card_buttom_info">More Info</button>
-          </div>
+        <div class="tour-card__buttons">
+                    <button class="tour-card__button tour-card__button-buy">
+              Buy Tour
+            </button>
+                    <button class="tour-card__button tour-card__button-info">
+              More Info
+            </button>
+                </div>
+            </div> 
+
+        </section>
+
         </div>
         <div class="tour-card">
           <img src="images/Egypt_pyramids.jpg" alt="Enigmatic Egyptian Odyssey" class="tour-card_image"/>
@@ -110,10 +137,18 @@
             River. Delve into the history, art, and culture that have captivated
             the world for millennia.
           </p>
-          <div class="tour-card_buttoms">
-            <button class="tour-card_buttom  tour-card_buttom_buy">Buy Tour</button>
-            <button class="tour-card_buttom  tour-card_buttom_info">More Info</button>
-          </div>
+         <div class="tour-card__buttons">
+                    <button class="tour-card__button tour-card__button-buy">
+              Buy Tour
+            </button>
+                    <button class="tour-card__button tour-card__button-info">
+              More Info
+            </button>
+                </div>
+            </div> 
+
+        </section>
+
         </div>
         <div class="tour-card">
           <img src="images/New_Zealand.jpg" alt="Scenic New Zealand Adventure " class="tour-card_image"/>
@@ -124,10 +159,14 @@
             glaciers. Experience the adventure and natural beauty that make this
             destination truly unique.
           </p>
-           <div class="tour-card_buttoms">
-            <button class="tour-card_buttom  tour-card_buttom_buy">Buy Tour</button>
-            <button class="tour-card_buttom  tour-card_buttom_info">More Info</button>
-          </div>
+         <div class="tour-card__buttons">
+                    <button class="tour-card__button tour-card__button-buy">
+              Buy Tour
+            </button>
+                    <button class="tour-card__button tour-card__button-info">
+              More Info
+            </button>
+                </div>
         </div>
         <div class="tour-card">
           <img src="images/Machu_Picchu.jpg"alt="Mystical Machu Picchu Trek " class="tour-card_image" />
@@ -138,10 +177,18 @@
             through breathtaking landscapes and immerse yourself in the rich
             history and culture of Peru.
           </p>
-          <div class="tour-card_buttoms">
-            <button class="tour-card_buttom  tour-card_buttom_buy">Buy Tour</button>
-            <button class="tour-card_buttom  tour-card_buttom_info">More Info</button>
-          </div>
+         <div class="tour-card__buttons">
+                    <button class="tour-card__button tour-card__button-buy">
+              Buy Tour
+            </button>
+                    <button class="tour-card__button tour-card__button-info">
+              More Info
+            </button>
+                </div>
+            </div> 
+
+        </section>
+
         </div>
         <div class="tour-card">
           <img src="images/Rio_Carnival.jpg"  alt="Vibrant Rio de Janeiro Carnival" class="tour-card_image"/>
@@ -152,19 +199,31 @@
             rhythms, and lively street parties come together in a dazzling
             celebration of life.
           </p>
-          <div class="tour-card_buttoms">
-            <button class="tour-card_buttom  tour-card_buttom_buy">Buy Tour</button>
-            <button class="tour-card_buttom  tour-card_buttom_info">More Info</button>
-          </div>
+  <div class="tour-card__buttons">
+                    <button class="tour-card__button tour-card__button-buy">
+              Buy Tour
+            </button>
+                    <button class="tour-card__button tour-card__button-info">
+              More Info
+            </button>
+                </div>
         </div>
         <div class="tour-card">
           <img src="images/paris.jpg" alt="Enchanting Parisian Sojourn " class="tour-card_image"/>
           <h3 class="tour-card_title"> Enchanting Parisian Sojourn</h3>
           <p class="tour-card_description">Immerse yourself in the allure and sophistication of Paris</p>
-          <div class="tour-card_buttoms">
-            <button class="tour-card_buttom  tour-card_buttom_buy">Buy Tour</button>
-            <button class="tour-card_buttom  tour-card_buttom_info">More Info</button>
-          </div>
+         <div class="tour-card__buttons">
+                    <button class="tour-card__button tour-card__button-buy">
+              Buy Tour
+            </button>
+                    <button class="tour-card__button tour-card__button-info">
+              More Info
+            </button>
+                </div>
+            </div> 
+
+        </section>
+
           </div>
          <div class="tour-card"> 
           <img src="images/tokyo.jpg" alt="Tokyo Tranquility Trek" class="tour-card_image" />
@@ -173,32 +232,41 @@
             Embark on a journey of discovery and serenity amidst the vibrant
             energy of Tokyo.
           </p>
-          <div class="tour-card_buttoms">
-            <button class="tour-card_buttom  tour-card_buttom_buy">Buy Tour</button>
-            <button class="tour-card_buttom  tour-card_buttom_info">More Info</button>
-          </div>
-        </div>
+        <div class="tour-card__buttons">
+                    <button class="tour-card__button tour-card__button-buy">
+              Buy Tour
+            </button>
+                    <button class="tour-card__button tour-card__button-info">
+              More Info
+            </button>
+                </div>
+            </div> 
+
       </section>
-      <section id="experience" class="section">
-        <div class="section_content">
-          <div class="section_text">
-            <h2 class="section_title">Share Your Experiences</h2>
-            <ul class="section_list">
-              <li>Connect with fellow travelers around the world</li>
-              <li>Compare prices and find the best deals</li>
-              <li>Share your stories, tips, and recommendations</li>
-              <li>Upload photos and videos of your adventures</li>
-              <li>Participate in forums and discussions</li>
-              <li>Inspire others to embark on their own journeys</li>
-            </ul>
-          </div>
-          <button class="section_buttom">Share</button>
-        </div>
-      </section>
+
+      <section class="section section-3" id="experience">
+            <div class="section__content">
+                <div class="section__text">
+                    <h2 class="section__title">Share Your Experiences</h2>
+                    <ul class="section__list">
+                        <li>Connect with fellow travelers around the world</li>
+                        <li>Share your stories, tips, and recommendations</li>
+                        <li>Upload photos and videos of your adventures</li>
+                        <li>Participate in forums and discussions</li>
+                        <li>Inspire others to embark on their own journeys</li>
+                    </ul>
+                </div>
+                <button class="section__button section__button-3">Share</button>
+            </div>
+        </section>
     </main>
 
-    <footer class="footer">
-      <p class="footer_text">Traveling with us &copy; 2024. All Rights Reserved.</p>
+
+       <footer class="footer">
+        <p class="footer__text">
+            Traveling with us &copy; 2023. All Rights Reserved.
+        </p>
     </footer>
   </body>
 </html>
+
