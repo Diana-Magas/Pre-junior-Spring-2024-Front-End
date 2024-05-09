@@ -15,6 +15,17 @@ function authenticate() {
         alert("Доступ заборонено");
     }
 }
+// Function to save login-password pairs in localStorage
+function savePairs(login, password) {
+    let pairs = JSON.parse(localStorage.getItem('login_password_pairs')) || {};
 
+    pairs[login] = password;
+
+    localStorage.setItem('login_password_pairs', JSON.stringify(pairs));
+}
+
+// Example
+savePairs('user1', 'password1');
+savePairs('user2', 'password2');
 
 
